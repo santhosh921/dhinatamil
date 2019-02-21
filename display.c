@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
- int main()
+ void  main()
 {
     int a[2], odd;
     printf("Enter the two numbers");
@@ -11,7 +11,7 @@
            odd++;
     }
     printf ("Number of odd %d", odd);
-    return 0;
+    
     getch();
    
 }
